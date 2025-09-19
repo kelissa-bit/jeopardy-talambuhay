@@ -6,13 +6,13 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
+        question: 'question 1',
         answer: 'Illinois',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
+            'question 2',
         imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
         answer: 'Myanmar',
     },
